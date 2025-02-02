@@ -1,0 +1,154 @@
+.session-track .session-title h1{
+    background-color: #eee;
+    text-align: center;
+    padding: 15px 15px 0;
+    margin-bottom: auto;
+}
+
+.session-track .session-title .sub-title {
+    text-align: right;
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+.session-track .session-title  .sub-content{
+    background-color: #eee;
+    padding: 10px;
+}
+
+.session-track .session-title  h4{
+    text-align: center;
+}
+
+.session-track .session-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 20px 10px;
+}
+
+.session-track .session-content p {
+    font-weight: 500;
+    color: rgb(199, 202, 191);
+}
+
+.session-track .session-content span {
+    font-weight: 600;
+    color: rgb(233, 11, 11);
+}
+
+
+
+.session-track .session-content .session-1 {
+    background-image: url('../../assets/seminar1.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.session-track .session-content .session-2 {
+    background-image: url('../../assets/session2.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.session-track .session-content .session-3 {
+    background-image: url('../../assets/session3.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.session-track .session-content .session-4{
+    background-image: url('../../assets/session4.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.session-track .session-content .session-5{
+    background-image: url('../../assets/session5.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.session-track .session-content .session-6{
+    background-image: url('../../assets/session6.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.session-track .session-content .session-7{
+    background-image: url('../../assets/session7.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.session-track .session-content .session-8{
+    background-image: url('../../assets/session8.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.session-track .session-content .session-9{
+    background-image: url('../../assets/session9.jpg');
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width:1000px) {
+    .session-track .session-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+
+@media (max-width:600px) {
+    .session-track .session-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+}

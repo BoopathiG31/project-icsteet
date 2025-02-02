@@ -1,0 +1,33 @@
+
+.scroll-meassage {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.scroll-meassage p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 600;
+    position: relative;
+    text-wrap: nowrap;
+    animation: scroll-msg 25s linear infinite;
+}
+
+@keyframes scroll-msg{
+   0% {
+    transform: translate(80%);
+   }
+   100% {
+    transform: translate(-80%);
+   }
+}
+.scroll-meassage p span {
+    font-weight: 600;
+    padding: 4px 4px;
+    color: rgb(227, 62, 73);
+}

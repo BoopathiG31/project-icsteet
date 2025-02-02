@@ -1,0 +1,29 @@
+.sponser-logo {
+    padding: 20px 20px;
+    width: auto;
+    margin: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.sponser-logo .logo-slide {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.sponser-logo  .slide {
+    height: 100px;
+    width: 250px;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translate(80%);
+
+    }100%{
+        transform: translate(-80%);
+
+    }
+    
+}
+

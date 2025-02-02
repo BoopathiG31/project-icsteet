@@ -1,0 +1,28 @@
+.about-head h1 {
+    text-align: center;
+    color: #271E59;
+}
+.about-head  .about-content{
+    padding: 20px;
+}
+.about-head img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.about-head .about-mission {
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.about-head .about-mission h3{
+    text-align: center;
+    color: #271E59;
+}
+
+.about-head .about-content-2 .about-vision p{
+    color: #271E59;
+}

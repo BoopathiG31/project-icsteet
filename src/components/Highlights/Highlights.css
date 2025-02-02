@@ -1,0 +1,12 @@
+.highlight {
+    background-color: rgb(255, 252, 252);
+}
+
+.highlight h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.highlight div{
+    padding: 10px;
+}

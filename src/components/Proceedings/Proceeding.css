@@ -1,0 +1,26 @@
+.proceeding{
+    text-align: center;
+}
+
+.proceeding .publication-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 20px;
+    
+}
+
+.proceeding .publication-logo img {
+    width: 40%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .proceeding .publication-logo{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    
+}

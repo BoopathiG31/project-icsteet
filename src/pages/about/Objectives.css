@@ -1,0 +1,15 @@
+.Objective h1 {
+    text-align: center;
+    color: #271E59;
+}
+
+.Objective .objective-1 {
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+}
+
+.Objective .des-object {
+    text-align: center;
+    font-style: italic;
+}

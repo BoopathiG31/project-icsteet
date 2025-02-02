@@ -1,0 +1,27 @@
+.theme-title {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.theme-title h1 {
+    color: #271E59;
+}
+
+
+.theme-title p {
+    padding: 20px;
+}
+
+.theme-title p span {
+    font-weight: 500;
+}
+
+.theme-title .key-area ul {
+    list-style:circle;
+    text-align: justify;
+}
+
+.theme-title .des-key-area {
+    margin-top: 20px;
+}

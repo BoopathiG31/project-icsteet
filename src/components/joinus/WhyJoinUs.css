@@ -1,0 +1,43 @@
+.join-us {
+    text-align: center;
+}
+
+.join-us .join-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.join-us .join-content div{
+    padding: 20px;
+    text-align: left;
+    background-color: #eee;
+}
+
+.join-us .join-content h5{
+    text-align: center;
+}
+
+.join-us .join-content p {
+    color: #000;
+}
+
+@media (max-width: 1000px) {
+    .join-us .join-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .join-us .join-content{
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    
+}

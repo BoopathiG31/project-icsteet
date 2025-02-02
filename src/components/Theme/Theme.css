@@ -1,0 +1,45 @@
+.welcome .welcome-content {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.welcome .about-content {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.welcome .conference-theme {
+    background-color: #eee;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+@keyframes spin {
+    0%{
+        
+    }100%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+    }
+    
+}
+
+.welcome .conference-theme img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+.welcome .conference-theme p {
+    text-align: start;
+    padding: 10px;
+}
+
+

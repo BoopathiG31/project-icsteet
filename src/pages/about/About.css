@@ -1,0 +1,36 @@
+.about   {
+    background-color: #eee;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #271E59;
+}
+
+.about h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.about .about-content {
+    padding: 20px;
+    text-align: justify;
+}
+
+.about .about-content span{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+}
+
+.about .about-image img {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+ .about-content-2 p{
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    
+
+}
