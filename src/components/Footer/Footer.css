@@ -83,9 +83,24 @@
         grid-template-columns: 1fr 1fr;}
 }
 @media (max-width: 600px) {
+    .footer .footer-content-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .footer .footer-content{
         display: grid;
-        grid-template-columns:  1fr;}
-
-    
+        grid-template-columns:  1fr;
+    }
+    .footer .footer-content-center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .footer-content-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

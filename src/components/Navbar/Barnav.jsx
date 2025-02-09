@@ -9,7 +9,7 @@ const Barnav = () => {
           <span> HYBRID EVENT :  </span>
           You can participate in person in the <span> Philippines or Virtually </span> 
           from your home or office.
-        </p>
+        </p>  
       </div>
     </>
   )
