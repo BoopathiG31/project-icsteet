@@ -44,7 +44,6 @@ const Navbar = () => {
                 <li><Link className='menu'>Available Payments</Link></li>
                 <li><Link className='menu'>Registration Instructions</Link></li>
                 <li><Link className='menu'>Term & Conditions</Link></li>
-                
               </ul>
             </li>
             <li><Link className='menu' to="">Venue</Link></li>
